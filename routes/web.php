@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\PostsController;
+use App\Http\Controllers\PagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,3 +38,10 @@ Route::controller(UserController::class)->group(function () {
     Route::get('/signup', 'signup');
     Route::post('/users', 'store');
 });
+
+//Route::resource('posts', PostsController::class);
+
+Route::resources([
+    'pages' => PagesController::class,
+    'posts' => PostController::class,
+]);
