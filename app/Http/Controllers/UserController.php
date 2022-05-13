@@ -6,12 +6,12 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    /** 
-    * @return void
-    */
-    public function _construct(){
-        $this->middleware('auth');
-    }
+   // /** 
+ //   * @return void
+ //   */
+  //  public function __construct(){
+ //       $this->middleware('auth');
+ //   }
 
     public function index(){
         return view('user');
