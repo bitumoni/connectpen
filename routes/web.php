@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/signup', function () {
+    return 'notun accnt';
+});
+
+Route::get('/user', [UserController::class, 'index']);
+//Route::get('/user', 'App\Http\Controllers\UserController@index');
+
+//Route::get('/user/{id}', 'App\Http\Controllers\UserController@show');
+Route::get('/user/profile', 'App\Http\Controllers\UserController@index')->name('profile');
