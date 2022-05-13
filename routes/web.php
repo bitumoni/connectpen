@@ -29,8 +29,10 @@ Route::get('/', function () {
 //Route::get('/user/profile', 'App\Http\Controllers\UserController@index')->name('profile');
 
 Route::controller(UserController::class)->group(function () {
-    Route::get('/user/profile', 'index')->middleware(EnsureTokenIsValid::class);
+    //Route::get('/user/profile', 'index')->middleware(EnsureTokenIsValid::class);
+    Route::get('/user/profile', 'index');
     Route::get('/user/{id}', 'show');
+    Route::post('/user/profile', 'post');
     Route::get('/signup', 'signup');
     Route::post('/users', 'store');
 });
