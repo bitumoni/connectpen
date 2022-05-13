@@ -13,4 +13,7 @@ class UserController extends Controller
     public function show($id) {
         return 'user Id:' .$id;
     }
+    public function signup() {
+        return view('signup');
+    }
 }

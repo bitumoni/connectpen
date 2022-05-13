@@ -18,9 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/signup', function () {
-    return 'notun accnt';
-});
+//Route::get('/signup', function () {
+//    return 'notun accnt';
+//});
 
 //Route::get('/user', [UserController::class, 'index']);
 //Route::get('/user', 'App\Http\Controllers\UserController@index');
@@ -29,7 +29,8 @@ Route::get('/signup', function () {
 //Route::get('/user/profile', 'App\Http\Controllers\UserController@index')->name('profile');
 
 Route::controller(UserController::class)->group(function () {
-    Route::get('/user/profile', 'index');
+    Route::get('/user/profile', 'index')->middleware(EnsureTokenIsValid::class);
     Route::get('/user/{id}', 'show');
+    Route::get('/signup', 'signup');
     Route::post('/users', 'store');
 });
