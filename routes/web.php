@@ -21,7 +21,7 @@ Route::get('/', function () {
 });
 
 //Route::get('/signup', function () {
-//    return 'notun accnt';
+//   return 'notun accnt';
 //});
 
 //Route::get('/user', [UserController::class, 'index']);
