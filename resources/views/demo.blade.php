@@ -56,7 +56,10 @@
                             <div class="my-5 text-center text-xl-start">
                                 <h1 class="display-5 fw-bolder text-white mb-2">CONNECT PEN - Largest Author Community</h1>
                                 <p class="lead fw-normal text-white-50 mb-4">Connect Pen helps you connect and share your thoughts with the people and earn money in your life.</p>
-                               
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Log In</a>
+                                    <a class="btn btn-outline-light btn-lg px-4" href="#!">CREATE</a>
+                                </div>
                             </div>
                         </div>
                         <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://i.guim.co.uk/img/media/cfa9d5667ecc480edae5622a8e36d51c665150aa/0_121_7123_4275/master/7123.jpg?width=1200&quality=85&auto=format&fit=max&s=d7d2d858686eaa50a439b9d71b2e092d" alt="..." /></div>
