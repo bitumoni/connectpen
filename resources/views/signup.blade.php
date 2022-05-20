@@ -17,7 +17,7 @@
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-white bg-white">
                 <div class="container px-5">
                     <a class="navbar-brand" href="index.html">CONNECT PEN</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -54,28 +54,31 @@
                     <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
                             <div class="my-5 text-center text-xl-start">
-                                <h1 class="display-5 fw-bolder text-white mb-2">CONNECT PEN - Largest Author Community</h1>
+                            
+                                <h1 class="display-5 fw-bolder text-white mb-2">CONNECT PEN</h1>
+                           
+                                <div class="fs-3 fw-bold text-white">Largest Author Community</div>
                                 <p class="lead fw-normal text-white-50 mb-4">Connect Pen helps you connect and share your thoughts with the people and earn money in your life.</p>
-                               
+                                
                             </div>
                         </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://i.guim.co.uk/img/media/cfa9d5667ecc480edae5622a8e36d51c665150aa/0_121_7123_4275/master/7123.jpg?width=1200&quality=85&auto=format&fit=max&s=d7d2d858686eaa50a439b9d71b2e092d" alt="..." /></div>
-                        <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+                            <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://i.guim.co.uk/img/media/cfa9d5667ecc480edae5622a8e36d51c665150aa/0_121_7123_4275/master/7123.jpg?width=1200&quality=85&auto=format&fit=max&s=d7d2d858686eaa50a439b9d71b2e092d" alt="..." />
+                            </div>
+                        <aside class="bg-grey bg-gradient rounded-3 p-4 p-sm-5 mt-5">
                         <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
                             <div class="mb-4 mb-xl-0">
-                                <div class="fs-3 fw-bold text-white">CONNECT PEN - Largest Author Community</div>
-                                <div class="text-white-50">Connect Pen helps you connect and share your thoughts with the people and earn money in your life.</div>
-                            </div>
-                            <div class="ms-xl-4">
-                            <input class="form-control" type="text" placeholder="Email address or phone number" aria-label="Email address or phone number" aria-describedby="button-newsletter" />
+                                <input class="form-control" type="text" placeholder="Email address or phone number" aria-label="Email address or phone number" aria-describedby="button-newsletter" />
 
                                 <div class="input-group mb-2">
-                              
+                                    
                                     <input class="form-control" type="text" placeholder="Password" aria-label="Password" aria-describedby="button-newsletter" />
-                                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Forgotten password?</button>
+                                    <button class="btn btn-outline-warning" id="button-newsletter" type="button">Forgotten password?</button>
                                 </div>
+                            </div>
+                            <div class="ms-xl-4">
+                                
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-outline-light btn-lg px-4 me-sm-3" href="#features">Log In</a>
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Log In</a>
                                     <a class="btn  btn-success btn-lg px-4" href="#!">Create New Account</a>
                                 </div>
                                 <div class="small text-white-50">We care about privacy, and will never share your data.</div>
@@ -86,23 +89,7 @@
                 </div>
             </header>
            
-                    <!-- Call to action-->
-                    <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
-                        <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
-                            <div class="mb-4 mb-xl-0">
-                                <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>
-                                <div class="text-white-50">Sign up for our newsletter for the latest updates.</div>
-                            </div>
-                            <div class="ms-xl-4">
-                                <div class="input-group mb-2">
-                                    <input class="form-control" type="text" placeholder="Email address or phone number" aria-label="Email address or phone number" aria-describedby="button-newsletter" />
-                                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
-                                </div>
-                                
-                                <div class="small text-white-50">We care about privacy, and will never share your data.</div>
-                            </div>
-                        </div>
-                    </aside>
+                
                 </div>
             </section>
         </main>
@@ -110,7 +97,7 @@
         <footer class="bg-dark py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2022</div></div>
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Connect Pen 2022</div></div>
                     <div class="col-auto">
                         <a class="link-light small" href="#!">Privacy</a>
                         <span class="text-white mx-1">&middot;</span>
