@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>CREATE NEW ACCOUNT</title>
+        <title>CONNECT PEN - Largest Author Community</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -77,16 +77,16 @@
                                             <div class="small text-white-50">We care about privacy, and will never share your data.</div>
                                 </div>
                                 
-                                <div class="ms-xl-4">
+                                <div class="ms-xl-4 ">
                                                         
                                 
-                                            <input class="form-control mb-2" type="text" placeholder="Email address or phone number" aria-label="Email address or phone number" aria-describedby="button-newsletter" />
+                                            <input class="form-control mb-2 " type="text" placeholder="Email address or phone number" aria-label="Email address or phone number" aria-describedby="button-newsletter" />
 
-                                            <div class="input-group mb-2">
+                                            
                                                 
-                                                <input class="form-control" type="text" placeholder="Password" aria-label="Password" aria-describedby="button-newsletter" />
+                                                <input class="form-control mb-2" type="password" placeholder="Password" aria-label="Password" aria-describedby="button-newsletter" />
 
-                                            </div>
+                                            
                                             <a class="text-decoration-none" id="forgot_password" type="text">Forgotten password?</a>
                                             <a class="btn btn-primary " href="#features">Log In</a>
 
