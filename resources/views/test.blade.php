@@ -58,14 +58,37 @@
             <aside class="bg-dark bg-gradient  p-4 p-sm-5 ">
                         <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
                             <div class="mb-4 mb-xl-0">
-                                <div class="fs-3 fw-bold text-white">Username</div>
-                                <div class="text-white-50">Tell your story</div>
-                            </div>
-                            <div class="ms-xl-4">
-                                <div class="input-group mb-2">
-                                    <input class="form-control" type="text" placeholder="Share your thoughts or idea" aria-label="Share your thoughts or idea" aria-describedby="button-newsletter" />
-                                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Post</button>
+                            
+                            <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+                                <div>
+                                    <textarea type="text" class="form-control" name="casenote" id="editor" placeholder="Tell us about the incident" required></textarea>
                                 </div>
+                            <script>CKEDITOR.replace('editor')</script>
+                            <br>
+                            <center><div class="fs-3 fw-bold text-white-50">Tell your story to the world</div></center>
+                                
+                            </div>
+                            
+
+
+                            <div class="ms-xl-4">
+
+                            
+                            
+                            <center> <div class="fs-3 fw-bold text-white">Username</div></center>
+                                
+                            
+                                <div class="input-group mb-2 ">
+                                    <input class="form-control" type="text" placeholder="Title" aria-label="Title" aria-describedby="button-newsletter" />
+                                    <button class="btn btn-success" id="button-newsletter" type="button">Post</button>
+                                </div>
+                                <input type="text" class="form-control md-2" id="exampleFormControlInput1" placeholder="Keywords">
+                                
+                           
+
+
+
+                                
 
                                                     <div class="form-check form-check-inline">
                                                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="male">
@@ -249,5 +272,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>    
+
+
+
 </body>
 </html>
