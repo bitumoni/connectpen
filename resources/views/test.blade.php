@@ -50,7 +50,7 @@
             </nav>
             <!-- Header-->
 
-            <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+            <aside class="bg-dark bg-gradient rounded-3 p-4 p-sm-5 mt-5">
                         <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
                             <div class="mb-4 mb-xl-0">
                                 <div class="fs-3 fw-bold text-white">Username</div>
@@ -58,13 +58,15 @@
                             </div>
                             <div class="ms-xl-4">
                                 <div class="input-group mb-2">
-                                    <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
+                                    <input class="form-control" type="text" placeholder="Share your thoughts or idea" aria-label="Share your thoughts or idea" aria-describedby="button-newsletter" />
                                     <button class="btn btn-outline-light" id="button-newsletter" type="button">Post</button>
                                 </div>
+                                <i class="bi bi-globe text-white">Public</i>
+                                <i class="bi bi-shield-lock-fill text-white">Friends</i>
                                 <div class="small text-white-50">We care about privacy, and will never share your data.</div>
                             </div>
                         </div>
-                    </aside>
+            </aside>
     
             <!-- Blog preview section-->
             <section class="py-5">
