@@ -20,6 +20,10 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container px-5">
                     <a class="navbar-brand" href="index.html">CONNECT PEN</a>
+                    <div class="input-group mb-2 md-2">
+                                    <input class="form-control" type="text" placeholder="Type to search" aria-label="Type to search" aria-describedby="button-newsletter" />
+                                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Search</button>
+                                </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -49,8 +53,9 @@
                 </div>
             </nav>
             <!-- Header-->
+            
 
-            <aside class="bg-dark bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+            <aside class="bg-dark bg-gradient  p-4 p-sm-5 ">
                         <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
                             <div class="mb-4 mb-xl-0">
                                 <div class="fs-3 fw-bold text-white">Username</div>
@@ -61,8 +66,24 @@
                                     <input class="form-control" type="text" placeholder="Share your thoughts or idea" aria-label="Share your thoughts or idea" aria-describedby="button-newsletter" />
                                     <button class="btn btn-outline-light" id="button-newsletter" type="button">Post</button>
                                 </div>
-                                <i class="bi bi-globe text-white">Public</i>
-                                <i class="bi bi-shield-lock-fill text-white">Friends</i>
+
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="male">
+                                                        <i class="bi bi-globe text-white">Public</i>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="female">
+                                                        <i class="bi bi-people-fill text-white">Friends</i>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="other">
+                                                        <i class="bi bi-person-fill text-white">Only me</i>
+                                                    </div>
+
+
+                                
+                                
+                                
                                 <div class="small text-white-50">We care about privacy, and will never share your data.</div>
                             </div>
                         </div>
