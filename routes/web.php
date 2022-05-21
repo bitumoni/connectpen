@@ -37,6 +37,11 @@ Route::controller(UserController::class)->group(function () {
     Route::post('/user/profile', 'post');
     Route::get('/signup', 'signup');
     Route::post('/users', 'store');
+    Route::get('/reg', 'reg');
+    Route::get('/login', 'login');
+    Route::get('/demo', 'demo');
+    Route::get('/test', 'test');
+
 });
 
 //Route::resource('posts', PostsController::class);

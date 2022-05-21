@@ -24,6 +24,22 @@ class UserController extends Controller
         return view('signup');
     }
 
+    public function reg() {
+        return view('reg');
+    }
+
+    public function login() {
+        return view('login');
+    }
+
+    public function demo() {
+        return view('demo');
+    }
+
+    public function test() {
+        return view('test');
+    }
+
     public function post(Request $req) {
         return $req->input();
     }
