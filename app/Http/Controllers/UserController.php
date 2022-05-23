@@ -44,6 +44,10 @@ class UserController extends Controller
         return view('test');
     }
 
+    public function menu() {
+        return view('menu');
+    }
+
     public function post(Request $req) {
         return $req->input();
     }

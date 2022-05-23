@@ -42,7 +42,15 @@ Route::controller(UserController::class)->group(function () {
     Route::get('/demo', 'demo');
     Route::get('/test', 'test');
     Route::get('/msg', 'msg');
+    //Route::get('/menu', 'menu');
 
+});
+
+
+
+
+Route:: get ('/home', function () {
+   return view('home');
 });
 
 //Route::resource('posts', PostsController::class);
@@ -51,3 +59,12 @@ Route::resources([
     'pages' => PagesController::class,
     'posts' => PostController::class,
 ]);
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
