@@ -32,6 +32,10 @@ class UserController extends Controller
         return view('login');
     }
 
+    public function msg() {
+        return view('msg');
+    }
+
     public function demo() {
         return view('demo');
     }

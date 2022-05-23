@@ -41,6 +41,7 @@ Route::controller(UserController::class)->group(function () {
     Route::get('/login', 'login');
     Route::get('/demo', 'demo');
     Route::get('/test', 'test');
+    Route::get('/msg', 'msg');
 
 });
 

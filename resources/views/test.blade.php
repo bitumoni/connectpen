@@ -26,8 +26,8 @@
                                     <button class="btn btn-outline-light" id="button-newsletter" type="button">Search</button>
                                 </div>
                                 <a class="navbar-brand bi-chat-fill text-white" href="/msg">Messages</a>
-                                <a class="navbar-brand bi-bell-fill text-white" href="/msg">Notifications</a>
-                                <a class="navbar-brand bi-people-fill text-white" href="faq.html">Friends</a>
+                                <a class="navbar-brand bi-bell-fill text-white" href="/notifications">Notifications</a>
+                                <a class="navbar-brand bi-people-fill text-white" href="/friends">Friends</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
