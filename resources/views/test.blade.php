@@ -20,32 +20,34 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container px-5">
                     <a class="navbar-brand" href="index.html">CONNECT PEN</a>
-                    <div class="input-group mb-2 md-2">
+                    
+                                <div class="navbar-brand input-group mb-2 md-2">
                                     <input class="form-control" type="text" placeholder="Type to search" aria-label="Type to search" aria-describedby="button-newsletter" />
                                     <button class="btn btn-outline-light" id="button-newsletter" type="button">Search</button>
                                 </div>
+                                <a class="navbar-brand bi-chat-fill text-white" href="/msg">Messages</a>
+                                <a class="navbar-brand bi-bell-fill text-white" href="/msg">Notifications</a>
+                                <a class="navbar-brand bi-people-fill text-white" href="faq.html">Friends</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            
                             <li class="nav-item"><a class="nav-link" href="pricing.html">Earning</a></li>
-                            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                            
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Account</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="blog-home.html">NEW ACCOUNT</a></li>
-                                    <li><a class="dropdown-item" href="blog-post.html">LOGIN</a></li>
+                                    <li><a class="dropdown-item" href="blog-home.html">View profile</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Log out</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profile</a>
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Settings</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
-                                    <li><a class="dropdown-item" href="portfolio-overview.html">AUTHOR</a></li>
-                                    <li><a class="dropdown-item" href="portfolio-overview.html">PUBLISHER</a></li>
-                                    <li><a class="dropdown-item" href="portfolio-overview.html">INVESTOR</a></li>
-                                    <li><a class="dropdown-item" href="portfolio-item.html">ADMIN</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">ads</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">Privacy</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">Feedback</a></li>
+                                    
                                 </ul>
                             </li>
                         </ul>
@@ -78,10 +80,10 @@
                             <center> <div class="fs-3 fw-bold text-white">Connect Pen</div></center>
                                 
                             
-                                <div class="input-group mb-2 ">
-                                    <input class="form-control" type="text" placeholder="Title" aria-label="Title" aria-describedby="button-newsletter" />
+                                
+                                    <input class="form-control mb-2" type="text" placeholder="Title" aria-label="Title" aria-describedby="button-newsletter" />
                                     
-                                </div>
+                                
 
                                 <select class="form-select mb-2" aria-label="Default select example">
                                         <option value="0" disabled="" selected="">Select Category</option><option value="Fantasy">Fantasy</option><option value="Epic Fantasy">Epic Fantasy</option><option value="Science Fiction">Science Fiction</option><option value="Sci-fi Fantasy">Sci-fi Fantasy</option><option value="Dystopian">Dystopian</option><option value="Horror / Thriller">Horror / Thriller</option><option value="Romance">Romance</option><option value="Contemporary">Contemporary</option><option value="Historical">Historical</option>
@@ -90,6 +92,7 @@
                                 </select>
 
                                 <input type="text" class="form-control mb-2" name="keywords" placeholder="Keywords (quote, lyrics, movie, film script)">
+                                <input class="form-control mb-2" type="text" placeholder="Language" aria-label="Language" aria-describedby="button-newsletter" />
 
                                 <br>
                                 <div class="input-group md-2">
